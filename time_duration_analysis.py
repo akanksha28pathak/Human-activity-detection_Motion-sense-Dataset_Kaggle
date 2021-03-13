@@ -5,7 +5,7 @@ Spyder Editor
 This is a temporary script file.
 """
  
-#CODE 2: Analyse min-max duration of data in each folder. We have used two approaches visually as well as counter based. For visual inspection, histogram of time duration of
+#CODE 2: Analyse min-max duration of data in each folder. We have used two approaches visually as well as counter based. For visual inspection, histogram of time duration 
 #  for each folder is ploted. For counter based option, we have counted number of subjects in each folder below certian threshold of time duration.
 
 import numpy as np
