@@ -6,8 +6,8 @@ This is a temporary script file.
 """
 # CODE 1: INITIAL PREPROCESSING WITH CSV FILES.
 # Initially we will work with UserAcceleration and RotationRate. Since, these inputs are given in form of x,y,z components, we first obtain their magnitude.
-# Hence, this code adds magnitue of UserAcceleration and RotationRate to original csv files and removes  their x, y,z components. 
-# ALong with this, time stamps are also added as an additional column
+# Hence, this code adds magnitude of UserAcceleration and RotationRate to original csv files and removes  their x, y,z components. 
+# Along with this, time stamps are also added as an additional column
 
 import numpy as np
 import pandas as pd
