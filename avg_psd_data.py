@@ -41,3 +41,5 @@ for  axs, i in zip(a,sub_folder_name):
     axs.set_title(i)
     plt.show()
     del avg_psd
+axs.set_xlabel("Frequency (Hz)")      
+      
