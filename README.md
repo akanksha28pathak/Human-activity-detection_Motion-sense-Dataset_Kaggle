@@ -15,6 +15,8 @@ Along with this, time stamps are also added as an additional column for our ease
 5. Acceleration_mag_avg_time_series_2.png- time series data for 'useAcceleration_mag' averaged over all subjects for each activity.
 6. Acceleration_mag_avg_PSD_2.png - Pwelch PSD for 'useAcceleration_mag' averaged over all subjects for each activity.
 7. Rotation_mag_avg_PSD_2.png -  Pwelch PSD for 'RotationRate_mag' averaged over all subjects for each activity.
+
+Further updates will be uploaded soon...
  
 
 
