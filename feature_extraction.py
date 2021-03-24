@@ -48,7 +48,7 @@ def features_compute(Pxx):
 
 for sen in sensor_name:
     
-    PSD_sen=np.load(sen+'_PSD.npy')  # assumes numpy file of PSD in same location as of code 
+    PSD_sen=np.load(sen+'_PSD.npy')  # assumes numpy file of PSD in same location 
     path_name=os.path.join(folder_name,sen)
     os.mkdir(path_name)
     
