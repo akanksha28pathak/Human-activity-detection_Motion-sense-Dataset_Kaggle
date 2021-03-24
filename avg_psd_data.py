@@ -30,6 +30,7 @@ for  axs, i in zip(a,sub_folder_name):
          
          da=pd.read_csv(file_name)
          dd=da['userAcceleration_Mag']  #change column name here for analyzing other columns
+		 
          dd=(dd-dd.mean())/dd.std()
          f, Pxx_den = signal.welch(dd, Fs, nperseg=50,nfft=128)
          s[j-1,:]=Pxx_den
