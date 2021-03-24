@@ -55,5 +55,5 @@ for sen in sensor_name:
         
     # just cheking by plotting 
     
-    plt.plot(PSD_all[14,23,:])
+    plt.plot(PSD_all[14,23,:]) # folder 15 subject 24
     plt.show()    
